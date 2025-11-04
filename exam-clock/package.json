@@ -1,0 +1,11 @@
+{
+  "name": "exam-clock",
+  "version": "0.0.0",
+  "homepage": "https://dg-bit.github.io/EXAMCLOCK",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+  }
